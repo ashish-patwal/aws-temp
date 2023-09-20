@@ -34,3 +34,11 @@ jobs:
         run: |
           ip address
           ps
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Do something
+        run: echo "Job 2 running"
