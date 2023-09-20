@@ -35,7 +35,6 @@ jobs:
           ip address
           ps
 
-jobs:
   job2:
     runs-on: ubuntu-latest
     steps:
